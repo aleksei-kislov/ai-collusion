@@ -1,0 +1,14 @@
+# keys and local environments never leave your computer
+*.env
+compute.env
+.venv/
+__pycache__/
+.DS_Store
+# answer caches (only used to resume a run)
+*_cache*.jsonl
+# lock files and analysis output the code writes (saved copies live in monitor-results)
+*.lock
+analysis/
+# R session history
+.Rapp.history
+.Rhistory
